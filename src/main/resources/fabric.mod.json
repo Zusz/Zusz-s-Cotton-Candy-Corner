@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.zusz.zcottoncandymod.ZuszsCottonCandyCorner"
+			"net.zusz.zcottoncandymod.ZCottonCandyMod"
 		],
 		"fabric-datagen": [
 			"net.zusz.zcottoncandymod.ZuszsCottonCandyCornerDataGenerator"
