@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "zcottoncandymod",
+	"version": "${version}",
+	"name": "Zusz's Cotton Candy Corner",
+	"description": "A small mod that adds Cotton Candy to Minecraft!",
+	"authors": [
+		"Zusz"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT, credit must be given",
+	"icon": "assets/zcottoncandymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zusz.zcottoncandymod.ZuszsCottonCandyCorner"
+		],
+		"fabric-datagen": [
+			"net.zusz.zcottoncandymod.ZuszsCottonCandyCornerDataGenerator"
+		],
+		"client": [
+			"net.zusz.zcottoncandymod.ZCottonCandyModClient"
+		]
+	},
+	"mixins": [
+		"zcottoncandymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
