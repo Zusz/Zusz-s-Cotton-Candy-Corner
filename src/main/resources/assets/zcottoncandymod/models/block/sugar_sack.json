@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "zcottoncandymod:block/sack_bottom",
+    "side": "zcottoncandymod:block/sack_side",
+    "top": "zcottoncandymod:block/sugar_sack_top"
+  }
+}
