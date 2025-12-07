@@ -19,7 +19,7 @@
 			"net.zusz.zcottoncandymod.ZCottonCandyMod"
 		],
 		"fabric-datagen": [
-			"net.zusz.zcottoncandymod.ZuszsCottonCandyCornerDataGenerator"
+			"net.zusz.zcottoncandymod.ZCottonCandyModDataGenerator"
 		],
 		"client": [
 			"net.zusz.zcottoncandymod.ZCottonCandyModClient"
