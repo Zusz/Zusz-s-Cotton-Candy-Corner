@@ -3,6 +3,7 @@ package net.zusz.zcottoncandymod;
 import net.fabricmc.api.ModInitializer;
 
 import net.zusz.zcottoncandymod.blocks.ModBlocks;
+import net.zusz.zcottoncandymod.item.ModItemGroups;
 import net.zusz.zcottoncandymod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,5 +17,6 @@ public class ZCottonCandyMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
