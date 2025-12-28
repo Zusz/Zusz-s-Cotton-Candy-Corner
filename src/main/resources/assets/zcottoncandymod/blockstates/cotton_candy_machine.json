@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "zcottoncandymod:block/cotton_candy_machine" },
+    "facing=east":  { "model": "zcottoncandymod:block/cotton_candy_machine", "y": 90 },
+    "facing=south": { "model": "zcottoncandymod:block/cotton_candy_machine", "y": 180 },
+    "facing=west":  { "model": "zcottoncandymod:block/cotton_candy_machine", "y": 270 }
+  }
+}
