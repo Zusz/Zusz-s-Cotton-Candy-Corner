@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "zcottoncandymod:item/brown_cotton_candy"
+  }
+}

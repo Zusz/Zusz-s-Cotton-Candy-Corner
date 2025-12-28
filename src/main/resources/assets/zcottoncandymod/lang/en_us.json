@@ -1,5 +1,8 @@
 {
   "item.zcottoncandymod.cotton_candy": "Cotton Candy",
+
   "block.zcottoncandymod.sugar_sack": "Sack of Sugar",
+  "block.zcottoncandymod.cotton_candy_machine": "Cotton Candy Machine",
+
   "itemgroup.zcottoncandymod.cotton_candy_items": "Zusz's Cotton Candy Corner"
 }

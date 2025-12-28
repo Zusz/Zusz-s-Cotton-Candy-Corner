@@ -31,8 +31,10 @@ public class CottonCandyMachineScreenHandler extends ScreenHandler {
         this.blockEntity = ((CottonCandyMachineBlockEntity) blockEntity);
         this.propertyDelegate = arrayPropertyDelegate;
 
-        this.addSlot(new Slot(inventory, 0, 54, 34));
+        this.addSlot(new Slot(inventory, 0, 54, 17));
         this.addSlot(new Slot(inventory, 1, 104, 34));
+        this.addSlot(new Slot(inventory, 2, 54, 51));
+        this.addSlot(new Slot(inventory, 3, 20, 34));
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);

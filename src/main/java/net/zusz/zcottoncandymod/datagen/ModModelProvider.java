@@ -32,5 +32,22 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACK_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROWN_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CYAN_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAY_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREEN_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIGHT_BLUE_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIGHT_GRAY_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIME_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGENTA_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINK_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURPLE_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RED_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WHITE_COTTON_CANDY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.YELLOW_COTTON_CANDY, Models.GENERATED);
+
     }
 }

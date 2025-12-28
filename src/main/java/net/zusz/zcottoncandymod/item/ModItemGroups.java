@@ -18,6 +18,24 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.zcottoncandymod.cotton_candy_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.COTTON_CANDY);
+
+                        entries.add(ModItems.WHITE_COTTON_CANDY);
+                        entries.add(ModItems.LIGHT_GRAY_COTTON_CANDY);
+                        entries.add(ModItems.GRAY_COTTON_CANDY);
+                        entries.add(ModItems.BLACK_COTTON_CANDY);
+                        entries.add(ModItems.BROWN_COTTON_CANDY);
+                        entries.add(ModItems.RED_COTTON_CANDY);
+                        entries.add(ModItems.ORANGE_COTTON_CANDY);
+                        entries.add(ModItems.YELLOW_COTTON_CANDY);
+                        entries.add(ModItems.LIME_COTTON_CANDY);
+                        entries.add(ModItems.GREEN_COTTON_CANDY);
+                        entries.add(ModItems.CYAN_COTTON_CANDY);
+                        entries.add(ModItems.LIGHT_BLUE_COTTON_CANDY);
+                        entries.add(ModItems.BLUE_COTTON_CANDY);
+                        entries.add(ModItems.PURPLE_COTTON_CANDY);
+                        entries.add(ModItems.MAGENTA_COTTON_CANDY);
+                        entries.add(ModItems.PINK_COTTON_CANDY);
+
                         entries.add(ModBlocks.SUGAR_SACK);
                     })
                     .build());

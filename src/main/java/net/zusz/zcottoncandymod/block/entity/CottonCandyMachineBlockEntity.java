@@ -31,6 +31,8 @@ public class CottonCandyMachineBlockEntity extends BlockEntity implements Extend
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(4, ItemStack.EMPTY);
 
     private static final int INPUT_SLOT = 0;
+    private static final int STICK_SLOT = 2;
+    private static final int DYE_SLOT = 3;
     private static final int OUTPUT_SLOT = 1;
 
     protected final PropertyDelegate propertyDelegate;
@@ -112,6 +114,7 @@ public class CottonCandyMachineBlockEntity extends BlockEntity implements Extend
                 this.getStack(OUTPUT_SLOT).getCount() + output.getCount()));
 
         this.removeStack(INPUT_SLOT, 1);
+        this.removeStack(STICK_SLOT, 1);
     }
 
     private boolean hasCraftingFinished() {
@@ -125,8 +128,10 @@ public class CottonCandyMachineBlockEntity extends BlockEntity implements Extend
     private boolean hasRecipe() {
         Item input = Items.SUGAR;
         ItemStack output = new ItemStack(ModItems.COTTON_CANDY);
+        Item stick = Items.STICK;
 
         return this.getStack(INPUT_SLOT).isOf(input) &&
+                this.getStack(STICK_SLOT).isOf(stick) &&
                 canInsertAmountIntoOutputSlot(output.getCount()) &&
                 canInsertItemIntoOutputSlot(output);
     }
