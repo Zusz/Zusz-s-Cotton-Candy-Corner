@@ -10,7 +10,7 @@ import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 import net.zusz.zcottoncandymod.ZCottonCandyMod;
-import net.zusz.zcottoncandymod.blocks.ModBlocks;
+import net.zusz.zcottoncandymod.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 

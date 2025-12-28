@@ -8,7 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.zusz.zcottoncandymod.ZCottonCandyMod;
-import net.zusz.zcottoncandymod.blocks.ModBlocks;
+import net.zusz.zcottoncandymod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup COTTON_CANDY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

@@ -3,7 +3,7 @@ package net.zusz.zcottoncandymod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.registry.RegistryWrapper;
-import net.zusz.zcottoncandymod.blocks.ModBlocks;
+import net.zusz.zcottoncandymod.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 
